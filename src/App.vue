@@ -19,7 +19,7 @@
         <div class="divider"></div>
         <div class="search-bar">
           <div class="search-wrapper">
-            <input class="search-input" type="text" placeholder="你所想" v-model="searchQuery" @keydown.enter="doSearch" />
+            <input class="search-input" type="text" placeholder="搜索网页或软件" v-model="searchQuery" @keydown.enter="doSearch" />
             <button class="search-btn" @click="doSearch">🔍</button>
           </div>
           <div v-if="searchQuery && allSearchItems.length" class="search-results">
